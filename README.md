@@ -1,5 +1,4 @@
-# Femboi_OwO (Soon this readme will be rewriten)
-4th try making a Discorcd bot.
+# Femboi_OwO (This is for a specific server, this probably won't do much else anywhere else)
 
 #### A bit of explanation:
 Just my own little bot to learn. Early in development. Still not stupid proof but working on it as I don't want it to break often.
