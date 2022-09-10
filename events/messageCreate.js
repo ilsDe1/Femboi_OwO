@@ -2,6 +2,27 @@ module.exports = {
 	name: 'messageCreate',
 	execute(message, client) {
 		//console.log(message);
+		if (message.guildId === "953982453436018748") { 
+			if (message.channelId === "997598105467879524") {
+				client.channels.cache.get('1011037703061651467').send({content: message.author.tag + "* said:\n"+message.content })
+				if (message.embeds.length) { 
+					console.log(" //Embed deleted//")
+					client.channels.cache.get('1011037703061651467').send({embeds: [message.embeds[0]]})
+				}
+				if (message.stickers.size) { 
+					console.log(" //Sticker deleted//")
+					const sStic = message.stickers.map(Stickers => Stickers.id);
+					console.log(sStic)
+					try { client.channels.cache.get('1011037703061651467').send(message.channel.send({stickers: [`${sStic}`]})) } 
+					catch {
+						const sSti = message.stickers.map(Stickers => Stickers.name);
+						console.log(sSti)
+						client.channels.cache.get('1011037703061651467').send("Sticker name: " + sSti)
+					}
+				}
+			}
+		}
+
 		try { if (message.author.bot) return } catch { return console.log("Bot is null, messageCreate, WHAT THE FUCK?"); }
         if (message.content.includes("@here") || message.content.includes("@everyone") || message.type == "REPLY") return;
 
