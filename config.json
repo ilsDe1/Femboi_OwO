@@ -1,13 +1,13 @@
 {
-  "Token": "token",
+  "Token": "MTAyMzUzMzM0NjE2NjQxOTQ2Ng.GTItRj.VO9sUp-Y4cYeJHix3vBXaoF-ayYi8ME5WJyxGE",
   "clientId": "clientID",
   "guildId": "guildID",
   "botOwnerId": "botOwnerID",
-  "botReadyStatus": false,
-  "botStatusChannel": "897097242861789236",
-  "futureIdeas": "-reminder \n-bot voting \n-Website to edit config \n-Google(?) search \n-API and rss? \n-math solver \n-Get that fucking console color package so it looks better \n-Currency or xp system \n-Reverse image search",
+  "botReadyStatus": true,
+  "botStatusChannel": "_",
+  "futureIdeas": "-owner \n-bot sarok \n-Website to edit config \n-Google(?) search \n-API and rss? \n-math solver \n-Get that fucking console color package so it looks better \n-Currency or xp system \n-Reverse image search",
   "bugsToFix": "-",
-  "stopPassword": "lolipop",
-  "language": "english",
+  "stopPassword": "sarok",
+  "language": "Kurdish",
   "debug_level": 2
 }
