@@ -1,13 +1,13 @@
 {
-  "Token": "token",
+  "Token": "MTA2MDM0ODM3NjA2MDc4ODgxOA.GVGXaP.mg-gCrK3vZwVZ_5wOgqxM-4BDKZT1KjUJMHeiw",
   "clientId": "clientID",
   "guildId": "guildID",
-  "botOwnerId": "botOwnerID",
+  "botOwnerId": "922079617777532948",
   "botReadyStatus": false,
-  "botStatusChannel": "897097242861789236",
+  "botStatusChannel": "1060282951323103232",
   "futureIdeas": "-reminder \n-bot voting \n-Website to edit config \n-Google(?) search \n-API and rss? \n-math solver \n-Get that fucking console color package so it looks better \n-Currency or xp system \n-Reverse image search",
   "bugsToFix": "-",
-  "stopPassword": "lolipop",
+  "stopPassword": "@Adar2013",
   "language": "english",
   "debug_level": 2
 }
